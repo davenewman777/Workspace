@@ -4,7 +4,7 @@ using System.IO;
 using ClosedXML.Excel;
 using System.Text;
 
-class Program
+partial class Program
 {
 	static void Main(string[] args)
 	{
