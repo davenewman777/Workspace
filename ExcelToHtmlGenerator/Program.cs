@@ -18,12 +18,14 @@ partial class Program
 			{
 				var sb = new StringBuilder();
 				sb.AppendLine("<table class='table table-bordered'>");
-				var rows = worksheet.RangeUsed().RowsUsed();
+				var range = worksheet.RangeUsed();
+				if (range == null) continue;
+				var rows = range.RowsUsed();
 				bool isHeader = true;
 				foreach (var row in rows)
 				{
 					sb.AppendLine("<tr>");
-					int colCount = row.Cells().Count;
+					int colCount = row.Cells().Count();
 					for (int i = 1; i <= colCount; i++)
 					{
 						var cell = row.Cell(i);
