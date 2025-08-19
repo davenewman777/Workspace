@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExcelToHtmlGenerator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93ed02f86127968b30b452cf89d6634a53645eb0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43f2b1aca542b92fa12e12aa146de99e0f910d16")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExcelToHtmlGenerator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExcelToHtmlGenerator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
